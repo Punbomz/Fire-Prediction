@@ -1,9 +1,3 @@
-Viewed app.py:1-34
-
-นี่คือเนื้อหาสำหรับไฟล์ `README.md` ที่สรุปภาพรวมโปรเจกต์ตั้งแต่การเตรียมข้อมูลไปจนถึงการใช้งานเว็บแอปพลิเคชัน เพื่อให้อาจารย์เข้าใจโครงสร้างและ Pipeline ทั้งหมดครับ
-
----
-
 # Ignis AI: Wildfire Risk Prediction & Visualization Dashboard
 
 **Ignis AI** is an end-to-end geospatial intelligence platform designed to predict and visualize wildfire risks. The project integrates satellite imagery analysis, machine learning inference, and interactive web visualization to provide a real-time simulation tool for wildfire management.
@@ -31,7 +25,11 @@ The system utilizes a **Decoupled Architecture** for high performance and scalab
 
 ---
 
-## 📂 Project Structure
+## 🗺️ Data
+https://drive.google.com/drive/folders/1OAKEuvwugnPz5XX0t4xYq7foX6mvUqbV?usp=sharing
+
+## 📂 Project Structure (Wild-Fire-Risk-Prediction Repository)
+https://github.com/Punbomz/Wild-Fire-Risk-Prediction
 
 ```bash
 ├── data/               # Geospatial datasets (Baseline CSV, District points JSON)
@@ -71,10 +69,3 @@ npm run dev
 ## 🧠 Developed By
 *   **Project Name:** Wildfire Risk Visualization (Ignis AI)
 *   **Focus Area:** GIS, Machine Learning, Web Development
-
----
-
-### **คำแนะนำสำหรับนักศึกษา:**
-*   **ส่วนที่ 1 (Data Engineering):** เน้นย้ำให้อาจารย์เห็นว่าเราไม่ได้แค่เอาข้อมูลมาใช้ แต่มีการ "สร้าง" ฟีเจอร์ใหม่ๆ เช่น Anomaly และ Roughness ขึ้นมาเอง
-*   **ส่วนที่ 2 (Machine Learning):** แสดงให้เห็นว่าเราใช้โมเดลสมัยใหม่ (CatBoost) และมีการจัดกลุ่มข้อมูล (Clustering) ก่อนทำนาย
-*   **ส่วนที่ 3 (Architecture):** อธิบายว่าเราแยก Frontend และ Backend เพื่อให้ระบบทำงานได้เหมือนแอปพลิเคชันระดับมืออาชีพครับ_
